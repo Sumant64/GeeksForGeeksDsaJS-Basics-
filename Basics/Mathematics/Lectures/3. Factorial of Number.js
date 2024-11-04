@@ -40,3 +40,12 @@ function factRec(n) {
 }
 
 console.log(factRec(5))
+
+/**
+ * dry run
+ * fact(4)
+ *      --> 4 * fact(3) == 4 * 6
+ *          --> 3 * fact(2) == 3 * 2
+ *              --> 2 * fact(1) == 2 * 1
+ *                  --> 1 * fact(0) == 1
+ */

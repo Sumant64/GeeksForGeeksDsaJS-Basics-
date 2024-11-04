@@ -24,7 +24,7 @@ fun(3);
 // =============================================
 // Output based question
 
-function secondFun () {
+function secondFun (n) {
     if(n == 0) {
         return;
     }
